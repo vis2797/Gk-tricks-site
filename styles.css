@@ -4,6 +4,8 @@
     color: white;
     font-size: larger;
     border-radius: 0.2rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 .list-non-bullet{
     list-style: none;
@@ -17,14 +19,18 @@
 body{
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
-    margin-right: 0px;
+    
 }
 
 .link{
     text-decoration: none;
     border-radius: 0.2rem;
-    color: antiquewhite; 
+    color: white;
     
+}
+
+.icon-color{
+    color: white;
 }
 
 .navigation-container .nav-pills{
@@ -35,11 +41,58 @@ body{
     padding:0.5rem;
 }
 .navigation-container .nav-brand{
-    font-size: large;
+    font-size: x-large;
+    font-weight: bolder;
 }
 .image-right{
     text-align: center;
     margin: 1rem;
     /* border: 1px solid black; */
     padding: 0.5rem;
+    font-style: oblique;
 }
+
+.flexbox-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.flexbox-item{
+    margin: 10px;
+    padding : .5rem;
+    
+}
+/* footer */
+
+.footer{
+    text-align: center;
+    background-color: rgb(120, 66, 179);
+    padding: 1.5rem 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    /* margin-bottom: 0px; */
+    
+}
+.footer .footer-header{
+    font-weight: bolder;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+}
+
+.footer .link{
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+
+/* @media screen and (max-width: 600px) {
+    .flexbox-container {
+      flex-direction: column;
+  } */
