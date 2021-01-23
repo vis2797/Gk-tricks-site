@@ -1,3 +1,29 @@
+body{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    
+}
+
+/* container */
+
+.container{
+    max-width: 700px;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+}
+
+.container li{
+    padding: .5rem 0rem;
+}
+
+.container a{
+    text-decoration: none;
+}
+
+
+/* navbar */
+
 .navigation-container{
     background-color: rgb(120, 66, 179);
     padding: 0.5rem 1rem;
@@ -6,31 +32,6 @@
     border-radius: 0.2rem;
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
-}
-.list-non-bullet{
-    list-style: none;
-    padding: 0rem 0.5rem;
-}
-.list-item-inline{
-    display: inline;
-    padding:0rem 0.5rem;
-}
-
-body{
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    
-}
-
-.link{
-    text-decoration: none;
-    border-radius: 0.2rem;
-    color: white;
-    
-}
-
-.icon-color{
-    color: white;
 }
 
 .navigation-container .nav-pills{
@@ -44,6 +45,11 @@ body{
     font-size: x-large;
     font-weight: bolder;
 }
+
+
+
+/* home page */
+
 .image-right{
     text-align: center;
     margin: 1rem;
@@ -61,13 +67,41 @@ body{
 
 
 .flexbox-item{
+    width: 350px;
     margin: 10px;
     padding : .5rem;
     
 }
+
+/* lists */
+
+
+.list-non-bullet{
+    list-style: none;
+    padding: 0rem 0.5rem;
+}
+.list-item-inline{
+    display: inline;
+    padding:0rem 0.5rem;
+}
+
+/* link */
+
+.link{
+    text-decoration: none;
+    border-radius: 0.2rem;
+    color: white;
+    
+}
+
+
 /* footer */
 
 .footer{
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     background-color: rgb(120, 66, 179);
     padding: 1.5rem 1rem;
@@ -90,6 +124,15 @@ body{
 .footer ul {
     padding-inline-start: 0px;
 }
+
+/* footr icon */
+
+
+.icon-color{
+    color: white;
+}
+
+
 
 
 /* @media screen and (max-width: 600px) {
