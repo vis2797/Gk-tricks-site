@@ -72,10 +72,12 @@ body{
 
 .flexbox-item{
     width: 350px;
-    margin: 10px;
+    margin: auto;
     padding : .5rem;
     
 }
+
+
 
 /* lists */
 
